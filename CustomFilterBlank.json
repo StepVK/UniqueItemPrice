@@ -1,0 +1,320 @@
+[
+  {
+    "Enabled": true,
+    "Type": 0,
+    "Rule": "item.Name == \"Glassblower's Bauble\"",
+    "ShouldLog": false
+  }, 
+  {
+    "Enabled": true,
+    "Type": 0,
+    "Rule": "item.Name == \"Chromatic Orb\"",
+    "ShouldLog": false
+  }, 
+  {
+    "Enabled": true,
+    "Type": 0,
+    "Rule": "item.Name == \"Blessed Orb\"",
+    "ShouldLog": false
+  }, 
+  {
+    "Enabled": true,
+    "Type": 2,
+    "Rule": "item.Name == \"Glassblower's Bauble\"",
+    "ShouldLog": false
+  },
+  {
+    "Enabled": true,
+    "Type": 2,
+    "Rule": "item.Name == \"Chromatic Orb\"",
+    "ShouldLog": false
+  },    
+  {
+    "Enabled": true,
+    "Type": 2,
+    "Rule": "item.Name == \"Blessed Orb\"",
+    "ShouldLog": false
+  },
+  {
+    "Enabled": true,
+    "Type": 0,
+    "Rule": "item.IsCurrency and not item.IsSealedProphecy and not item.Name == \"Blessed Orb\" and not item.Name == \"Portal Scroll\" and not item.Name == \"Scroll of Wisdom\" and not item.Name == \"Chromatic Orb\" and not item.Name == \"Splinter of Uul-Netol\" and not item.Name == \"Splinter of Esh\" and not item.Name == \"Splinter of Tul\" and not item.Name == \"Splinter of Xoph\" and not item.Name == \"Glassblower's Bauble\" and not item.FullNameContains(\"Essence\")",
+    "ShouldLog": false
+  },  
+  {
+    "Enabled": true,
+    "Type": 2,
+    "Rule": "item.IsCurrency and not item.IsSealedProphecy and not item.Name == \"Blessed Orb\" and not item.Name == \"Portal Scroll\" and not item.Name == \"Scroll of Wisdom\" and not item.Name == \"Chromatic Orb\" and not item.Name == \"Splinter of Uul-Netol\" and not item.Name == \"Splinter of Esh\" and not item.Name == \"Splinter of Tul\" and not item.Name == \"Splinter of Xoph\" and not item.Name == \"Glassblower's Bauble\" and not item.FullNameContains(\"Essence\")",
+    "ShouldLog": false
+  },
+  {
+    "Enabled": true,
+    "Type": 3,
+    "Rule": "item.IsCurrency and (item.Name == \"Chromatic Orb\" or item.Name == \"Splinter of Uul-Netol\" or item.Name == \"Splinter of Esh\" or item.Name == \"Splinter of Tul\" or item.Name == \"Splinter of Xoph\" or item.Name == \"Glassblower's Bauble\" or item.FullNameContains(\"Essence\"))",
+    "ShouldLog": false
+  },
+  {
+    "Enabled": false,
+    "Type": 0,
+    "Rule": "item.IsTalisman and (item.IsRare or item.IsUnique)",
+    "ShouldLog": false
+  },
+  {
+    "Enabled": false,
+    "Type": 2,
+    "Rule": "item.IsTalisman and (item.IsRare or item.IsUnique)",
+    "ShouldLog": false
+  },
+  {
+    "Enabled": false,
+    "Type": 3,
+    "Rule": "item.IsTalisman",
+    "ShouldLog": false
+  },
+  {
+    "Enabled": true,
+    "Type": 2,
+    "Rule": "item.IsSealedProphecy and (### GOOD PROPHECIES NAMES (FullName OR) ###)",
+    "ShouldLog": false
+  },
+  {
+    "Enabled": true,
+    "Type": 3,
+    "Rule": "item.IsSealedProphecy",
+    "ShouldLog": false
+  },
+  {
+    "Enabled": true,
+    "Type": 0,
+    "Rule": "item.NameContains(\"Beyond Leaguestone\") or item.NameContains(\"Warbands Leaguestone\") or item.NameContains(\"Breach Leaguestone\") or item.NameContains(\"Perandus Leaguestone\") or item.NameContains(\"Bloodlines Leaguestone\") or item.NameContains(\"Anarchy Leaguestone\")",
+    "ShouldLog": false
+  },
+  {
+    "Enabled": true,
+    "Type": 0,
+    "Rule": "item.NameContains(\"Leaguestone\") and item.IsMagic and not (item.NameContains(\"Talisman\") or item.NameContains(\"Essence\") or item.NameContains(\"Onslaught\"))",
+    "ShouldLog": false
+  }, 
+  {
+    "Enabled": true,
+    "Type": 2,
+    "Rule": "item.NameContains(\"Leaguestone\")",
+    "ShouldLog": false
+  }, 
+  {
+    "Enabled": true,
+    "Type": 0,
+    "Rule": "item.IsMap and item.MapTier <= 6",
+    "ShouldLog": false
+  },
+  {
+    "Enabled": true,
+    "Type": 1,
+    "Rule": "item.IsMap",
+    "ShouldLog": false
+  },
+  {
+    "Enabled": true,
+    "Type": 2,
+    "Rule": "item.IsMap and item.MapTier <= 6 and not item.IsUnique",
+    "ShouldLog": false
+  },
+  {
+    "Enabled": true,
+    "Type": 3,
+    "Rule": "item.IsMap",
+    "ShouldLog": false
+  },
+  {
+    "Enabled": true,
+    "Type": 0,
+    "Rule": "item.IsFragment and not (item.Name == \"Sacrifice at Dusk\" or item.Name == \"Sacrifice at Noon\" or item.Name == \"Sacrifice at Dawn\" or item.Name == \"Sacrifice at Midnight\")",
+    "ShouldLog": false
+  },
+  {
+    "Enabled": true,
+    "Type": 2,
+    "Rule": "item.IsFragment and not (item.Name == \"Sacrifice at Dusk\" or item.Name == \"Sacrifice at Noon\" or item.Name == \"Sacrifice at Dawn\" or item.Name == \"Sacrifice at Midnight\")",
+    "ShouldLog": false
+  },
+  {
+    "Enabled": true,
+    "Type": 3,
+    "Rule": "item.IsFragment and (item.Name == \"Sacrifice at Dusk\" or item.Name == \"Sacrifice at Noon\" or item.Name == \"Sacrifice at Dawn\" or item.Name == \"Sacrifice at Midnight\")",
+    "ShouldLog": false
+  },
+  {
+    "Enabled": true,
+    "Type": 0,
+    "Rule": "item.IsUnique",
+    "ShouldLog": false
+  },
+  {
+    "Enabled": true,
+    "Type": 1,
+    "Rule": "item.IsUnique",
+    "ShouldLog": false
+  },
+  {
+    "Enabled": true,
+    "Type": 2,
+    "Rule": "item.FullName == \"Ventor's Gamble\" and item.IncreasedRarity >= 30 and item.IncreasedQuantity >= 8 and item.MaximumLife >= 40",
+    "ShouldLog": false
+  },
+  {
+    "Enabled": true,
+    "Type": 2,
+    "Rule": "item.IsUnique and (###GOOD UNIQUES LINE (Fullname OR) ###)",
+    "ShouldLog": false
+  },
+  {
+    "Enabled": true,
+    "Type": 3,
+    "Rule": "item.IsUnique",
+    "ShouldLog": false
+  },
+  {
+    "Enabled": true,
+    "Type": 3,
+    "Rule": "item.IsFlask",
+    "ShouldLog": false
+  },
+  {
+    "Enabled": true,
+    "Type": 0,
+    "Rule": "item.IsGem and item.Quality > 4",
+    "ShouldLog": false
+  },
+  {
+    "Enabled": true,
+    "Type": 2,
+    "Rule": "item.IsGem and item.Quality > 4",
+    "ShouldLog": false
+  },
+  {
+    "Enabled": true,
+    "Type": 0,
+    "Rule": "item.Name == \"Empower Support\" and (not item.IsCorrupted or item.SkillGemLevel == 4)",
+    "ShouldLog": false
+  },
+  {
+    "Enabled": true,
+    "Type": 0,
+    "Rule": "item.Name == \"Enlighten Support\" and (not item.IsCorrupted or item.SkillGemLevel == 4)",
+    "ShouldLog": false
+  },
+  {
+    "Enabled": false,
+    "Type": 0,
+    "Rule": "item.Name == \"Enhance Support\" and (not item.IsCorrupted or item.SkillGemLevel == 4)",
+    "ShouldLog": false
+  },
+  {
+    "Enabled": true,
+    "Type": 2,
+    "Rule": "item.Name == \"Empower Support\" and (not item.IsCorrupted or item.SkillGemLevel == 4)",
+    "ShouldLog": false
+  },
+  {
+    "Enabled": true,
+    "Type": 2,
+    "Rule": "item.Name == \"Enlighten Support\" and (not item.IsCorrupted or item.SkillGemLevel == 4)",
+    "ShouldLog": false
+  },
+  {
+    "Enabled": false,
+    "Type": 2,
+    "Rule": "item.Name == \"Enhance Support\" and (not item.IsCorrupted or item.SkillGemLevel == 4)",
+    "ShouldLog": false
+  },
+  {
+    "Enabled": true,
+    "Type": 3,
+    "Rule": "item.IsGem",
+    "ShouldLog": false
+  },
+  {
+    "Enabled": false,
+    "Type": 0,
+    "Rule": "item.IsChromatic and item.InventorySquaresValue < 5",
+    "ShouldLog": false
+  },
+  {
+    "Enabled": true,
+    "Type": 0,
+    "Rule": "item.Sockets == 6",
+    "ShouldLog": false
+  },
+  {
+    "Enabled": true,
+    "Type": 3,
+    "Rule": "item.Links == 6 and not item.IsUnique and not item.Name == \"Vaal Regalia\"",
+    "ShouldLog": false
+  },
+  {
+    "Enabled": true,
+    "Type": 3,
+    "Rule": "item.Sockets == 6 and not item.IsUnique",
+    "ShouldLog": false
+  },
+  {
+    "Enabled": false,
+    "Type": 0,
+    "Rule": "item.IsJewel",
+    "ShouldLog": false
+  },
+  {
+    "Enabled": true,
+    "Type": 1,
+    "Rule": "item.IsJewel",
+    "ShouldLog": false
+  },
+  {
+    "Enabled": true,
+    "Type": 3,
+    "Rule": "item.IsJewel and not item.IsUnique",
+    "ShouldLog": false
+  },
+  {
+    "Enabled": true,
+    "Type": 0,
+    "Rule": "item.IsDivinationCard and (###Good DIV CARDS LINE (FullName OR) ###)",
+    "ShouldLog": false
+  },
+  {
+    "Enabled": true,
+    "Type": 2,
+    "Rule": "item.IsDivinationCard and (###Good DIV CARDS LINE (FullName OR) ###)",
+    "ShouldLog": false
+  },
+  {
+    "Enabled": true,
+    "Type": 3,
+    "Rule": "item.IsDivinationCard",
+    "ShouldLog": false
+  },
+  {
+    "Enabled": true,
+    "Type": 0,
+    "Rule": "item.IsQuest",
+    "ShouldLog": false
+  },  
+  {
+    "Enabled": true,
+    "Type": 3,
+    "Rule": "item.IsRare",
+    "ShouldLog": false
+  }, 
+  {
+    "Enabled": true,
+    "Type": 3,
+    "Rule": "item.IsNormal",
+    "ShouldLog": false
+  },
+  {
+    "Enabled": true,
+    "Type": 3,
+    "Rule": "item.IsMagic",
+    "ShouldLog": false
+  }
+]
